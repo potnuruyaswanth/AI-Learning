@@ -33,7 +33,7 @@ An intelligent file assistant powered by Google Gemini AI that helps you analyze
 ### 1. Clone & Install
 
 ```bash
-git clone https://github.com/YOUR_USERNAME/ai-file-assistant.git
+git clone https://github.com/potnuruyaswanth/AI-Learning.git
 cd ai-file-assistant
 
 # Install backend dependencies
