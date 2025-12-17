@@ -1,0 +1,32 @@
+[
+  {
+    "id": "hello-world-flow",
+    "config": {
+      "src\\hello\\process-greeting.step.js": {
+        "x": 350,
+        "y": 44
+      },
+      "src\\hello\\hello-api.step.js": {
+        "x": 0,
+        "y": 0
+      }
+    }
+  },
+  {
+    "id": "auth-flow",
+    "config": {
+      "src\\auth\\register.step.ts": {
+        "x": -538,
+        "y": 149
+      },
+      "src\\auth\\profile.step.ts": {
+        "x": -141,
+        "y": 174
+      },
+      "src\\auth\\login.step.ts": {
+        "x": 252,
+        "y": 169
+      }
+    }
+  }
+]

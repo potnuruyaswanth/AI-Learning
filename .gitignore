@@ -1,0 +1,38 @@
+# Dependencies
+node_modules/
+
+# Build outputs
+dist/
+.motia/
+.mermaid/
+
+# Environment files
+.env
+.env.local
+.env.production
+
+# Editor
+.vscode/
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+npm-debug.log*
+
+# Test files
+test-*.js
+
+# Python
+python_modules/
+.venv/
+venv/
+*.pyc
+__pycache__/

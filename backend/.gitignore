@@ -1,0 +1,20 @@
+node_modules
+python_modules
+.venv
+venv
+.motia
+.mermaid
+dist
+*.pyc
+
+# Environment files (keep .env.example)
+.env
+.env.local
+.env.production
+
+# Test files
+test-gemini.js
+
+# Logs
+*.log
+npm-debug.log*
