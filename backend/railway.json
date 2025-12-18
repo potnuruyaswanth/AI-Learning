@@ -5,10 +5,10 @@
     "buildCommand": "npm install --ignore-scripts && npm run postinstall || true && npm run build || true"
   },
   "deploy": {
-    "startCommand": "npm start",
+    "startCommand": "node -e \"console.log('Starting on port:', process.env.PORT || 3000)\" && npm start",
     "healthcheckPath": "/api/health",
     "healthcheckTimeout": 300,
     "restartPolicyType": "ON_FAILURE",
-    "restartPolicyMaxRetries": 10
+    "restartPolicyMaxRetries": 3
   }
 }
