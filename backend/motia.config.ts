@@ -10,16 +10,14 @@ const getAllowedOrigins = () => {
   const origins = [
     'http://localhost:5173',
     'http://127.0.0.1:5173',
+    // Your actual Vercel frontend URL
+    'https://frontend-alpha-gilt.vercel.app',
   ];
   
-  // Add Vercel URLs
+  // Add additional Vercel URLs from environment
   if (process.env.FRONTEND_URL) {
     origins.push(process.env.FRONTEND_URL);
   }
-  
-  // Add common Vercel preview URLs pattern
-  origins.push('https://ai-assist-using-motia.vercel.app');
-  origins.push('https://ai-learning-git-main-potnuruyaswanths-projects.vercel.app');
   
   return origins;
 };
