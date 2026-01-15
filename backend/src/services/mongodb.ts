@@ -1,7 +1,7 @@
 import { MongoClient, Db, Collection, ObjectId } from 'mongodb';
 
 // MongoDB connection string
-const MONGODB_URI = process.env.MONGODB_URI || 'mongodb+srv://yaswanthvenkata369_db_user:AsZY1WGIF2dniSwF@cluster0.g6uwgsq.mongodb.net/?appName=Cluster0';
+const MONGODB_URI = process.env.MONGODB_URI ;
 const DB_NAME = process.env.MONGODB_DB_NAME || 'ai_file_assistant';
 
 let client: MongoClient | null = null;
